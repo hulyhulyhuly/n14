@@ -1,5 +1,7 @@
 import { UserButton } from "@clerk/nextjs";
 
-const Home = () => <UserButton afterSignOutUrl="/" />;
+const Home = () => {
+  return <UserButton afterSignOutUrl="/" />;
+};
 
 export default Home;
