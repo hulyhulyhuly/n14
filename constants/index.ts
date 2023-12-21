@@ -71,3 +71,10 @@ export const BADGE_CRITERIA = {
     GOLD: 100000,
   },
 };
+
+export const QUESTION_FILTER = [
+  { value: "newest", label: "Newest" },
+  { value: "recommended", label: "Recommended" },
+  { value: "frequent", label: "Frequent" },
+  { value: "unanswered", label: "Unanswered" },
+];
